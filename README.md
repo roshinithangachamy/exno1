@@ -20,6 +20,7 @@ STEP 6: Use zscore of to remove outliers
 Register number: 212223230175
 Name: T.Roshini
 ```
+```
 import pandas as pd
 df=pd.read_csv("/content/SAMPLEIDS.csv")
 df
