@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8e8f1a98-7716-45d8-9af7-2b91031dc01a)# Exno:1
+# Exno:1
 Data Cleaning Process
 
 # AIM
@@ -68,7 +68,8 @@ df['M1']
 ```
 df.duplicated()
 ```
-![Uploading Screenshot 2024-08-28 105911.png…]()
+![Screenshot 2024-08-28 105911](https://github.com/user-attachments/assets/6e19fac7-f72e-4f98-8acc-0aadaffded64)
+
 ```
 df.drop_duplicates(inplace=True)
 df
