@@ -16,7 +16,9 @@ STEP 5: Remove outliers using IQR
 STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
-
+```
+Register number: 212223230175
+Name: T.Roshini
 ```
 import pandas as pd
 df=pd.read_csv("/content/SAMPLEIDS.csv")
