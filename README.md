@@ -19,8 +19,7 @@ STEP 6: Use zscore of to remove outliers
 ```
 Register number: 212223230175
 Name: T.Roshini
-```
-```
+
 import pandas as pd
 df=pd.read_csv("/content/SAMPLEIDS.csv")
 df
@@ -96,8 +95,7 @@ df
 sns.heatmap(df.isnull(),yticklabels=False,annot=True)
 ```
 ![Screenshot 2024-08-28 111814](https://github.com/user-attachments/assets/00c4fedc-bdc1-4426-af61-bbd52f64a307)
-```
-```
+
 ## Outliers detection and removal using IQR
 ```
 import pandas as pd
