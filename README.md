@@ -199,8 +199,7 @@ op=d_o(val)
 op
 ```
 ![Screenshot 2024-08-28 114234](https://github.com/user-attachments/assets/20d0d656-d838-45e9-81a1-af5db1cf1af4)
-```
-```
+
 
 # Result
 Thus we have cleaned the data and removed the outliers by detection using IQR and Z-score method.
