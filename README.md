@@ -129,7 +129,7 @@ lower_bound,upper_bound
 ```
 ![Screenshot 2024-08-28 113517](https://github.com/user-attachments/assets/e18a074e-fc80-48b5-9883-c18bc4388f8e)
 ```
-outliers = [x for x in age if (x < lower_bound) or (x > upper_bound)] # Removed .iloc[0] as lower_bound and upper_bound are not series.
+outliers = [x for x in age if (x < lower_bound) or (x > upper_bound)]
 print("q1",Q1)
 print("q3",Q3)
 print("iqr",IQR)
@@ -180,7 +180,7 @@ print(df[z['weight']>3])
 ![Screenshot 2024-08-28 114226](https://github.com/user-attachments/assets/ae810c82-2267-4a68-b882-a83ce54964a2)
 ```
 val=[12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60,63,
-                66,69,202,72,75,78,81,84,232,87,90,93,96,99,258]
+     66,69,202,72,75,78,81,84,232,87,90,93,96,99,258]
 
 import numpy as np
 out=[]
